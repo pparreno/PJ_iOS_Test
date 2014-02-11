@@ -1,5 +1,5 @@
 //
-//  SEViewController.h
+//  SETestTableViewController.h
 //  SymbioExam
 //
 //  Created by Paul John Parreno on 2/11/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SEViewController : UIViewController
+@interface SETestTableViewController : UITableViewController
 
 @end

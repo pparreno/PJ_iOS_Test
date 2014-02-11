@@ -7,12 +7,22 @@
 //
 
 #import "SEAppDelegate.h"
+#import "SETestTableViewController.h"
+
+@interface SEAppDelegate ()
+
+@end
 
 @implementation SEAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    SETestTableViewController *testTableVC = [[SETestTableViewController alloc]     initWithNibName:@"SETestTableViewController" bundle:nil];;
+    UINavigationController *nav = [[UINavigationController alloc]  initWithRootViewController:testTableVC];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							

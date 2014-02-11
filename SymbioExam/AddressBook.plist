@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Zhang San</string>
+		<key>PhoneNumber</key>
+		<string>13438131900</string>
+		<key>Address</key>
+		<string>China Chengdu office</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Zhang Sanwa</string>
+		<key>PhoneNumber</key>
+		<string>13438133201</string>
+		<key>Address</key>
+		<string>China Beijing office. The quick brown fox jumps over the lazy dog.</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Li Si</string>
+		<key>PhoneNumber</key>
+		<string>15754546781</string>
+		<key>Address</key>
+		<string>China Wuhan office</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Abbot Liu</string>
+		<key>PhoneNumber</key>
+		<string>13458685960</string>
+		<key>Address</key>
+		<string>China Beijing office</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Li Si</string>
+		<key>PhoneNumber</key>
+		<string>15754546781</string>
+		<key>Address</key>
+		<string>China Wuhan office</string>
+	</dict>
+</array>
+</plist>

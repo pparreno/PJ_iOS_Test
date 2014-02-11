@@ -13,15 +13,19 @@
 		E5AD914018AA12F300A2062A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5AD913E18AA12F300A2062A /* InfoPlist.strings */; };
 		E5AD914218AA12F300A2062A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AD914118AA12F300A2062A /* main.m */; };
 		E5AD914618AA12F300A2062A /* SEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AD914518AA12F300A2062A /* SEAppDelegate.m */; };
-		E5AD914918AA12F300A2062A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AD914718AA12F300A2062A /* Main_iPhone.storyboard */; };
-		E5AD914C18AA12F300A2062A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AD914A18AA12F300A2062A /* Main_iPad.storyboard */; };
-		E5AD914F18AA12F300A2062A /* SEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AD914E18AA12F300A2062A /* SEViewController.m */; };
 		E5AD915118AA12F300A2062A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5AD915018AA12F300A2062A /* Images.xcassets */; };
 		E5AD915818AA12F300A2062A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AD915718AA12F300A2062A /* XCTest.framework */; };
 		E5AD915918AA12F300A2062A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AD913518AA12F300A2062A /* Foundation.framework */; };
 		E5AD915A18AA12F300A2062A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AD913918AA12F300A2062A /* UIKit.framework */; };
 		E5AD916218AA12F300A2062A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5AD916018AA12F300A2062A /* InfoPlist.strings */; };
 		E5AD916418AA12F300A2062A /* SymbioExamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AD916318AA12F300A2062A /* SymbioExamTests.m */; };
+		E5AD917018AA14A400A2062A /* SETestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AD916E18AA14A400A2062A /* SETestTableViewController.m */; };
+		E5AD917118AA14A400A2062A /* SETestTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5AD916F18AA14A400A2062A /* SETestTableViewController.xib */; };
+		E5AD917318AA14E800A2062A /* AddressBook.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5AD917218AA14E800A2062A /* AddressBook.plist */; };
+		E5AD917818AA152300A2062A /* SEListObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AD917718AA152300A2062A /* SEListObject.m */; };
+		E5AD917B18AA183C00A2062A /* UIView+LoadFromNib.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AD917A18AA183C00A2062A /* UIView+LoadFromNib.m */; };
+		E5AD917F18AA187A00A2062A /* SEListObjectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AD917E18AA187A00A2062A /* SEListObjectTableViewCell.m */; };
+		E5AD918118AA188F00A2062A /* SEListObjectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5AD918018AA188F00A2062A /* SEListObjectTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,16 +49,23 @@
 		E5AD914318AA12F300A2062A /* SymbioExam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SymbioExam-Prefix.pch"; sourceTree = "<group>"; };
 		E5AD914418AA12F300A2062A /* SEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEAppDelegate.h; sourceTree = "<group>"; };
 		E5AD914518AA12F300A2062A /* SEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEAppDelegate.m; sourceTree = "<group>"; };
-		E5AD914818AA12F300A2062A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		E5AD914B18AA12F300A2062A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		E5AD914D18AA12F300A2062A /* SEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEViewController.h; sourceTree = "<group>"; };
-		E5AD914E18AA12F300A2062A /* SEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEViewController.m; sourceTree = "<group>"; };
 		E5AD915018AA12F300A2062A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E5AD915618AA12F300A2062A /* SymbioExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymbioExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5AD915718AA12F300A2062A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E5AD915F18AA12F300A2062A /* SymbioExamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SymbioExamTests-Info.plist"; sourceTree = "<group>"; };
 		E5AD916118AA12F300A2062A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E5AD916318AA12F300A2062A /* SymbioExamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymbioExamTests.m; sourceTree = "<group>"; };
+		E5AD916D18AA14A400A2062A /* SETestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SETestTableViewController.h; path = ../SETestTableViewController.h; sourceTree = "<group>"; };
+		E5AD916E18AA14A400A2062A /* SETestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SETestTableViewController.m; path = ../SETestTableViewController.m; sourceTree = "<group>"; };
+		E5AD916F18AA14A400A2062A /* SETestTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SETestTableViewController.xib; path = ../SETestTableViewController.xib; sourceTree = "<group>"; };
+		E5AD917218AA14E800A2062A /* AddressBook.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AddressBook.plist; sourceTree = "<group>"; };
+		E5AD917618AA152300A2062A /* SEListObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEListObject.h; sourceTree = "<group>"; };
+		E5AD917718AA152300A2062A /* SEListObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEListObject.m; sourceTree = "<group>"; };
+		E5AD917918AA183C00A2062A /* UIView+LoadFromNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LoadFromNib.h"; sourceTree = "<group>"; };
+		E5AD917A18AA183C00A2062A /* UIView+LoadFromNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LoadFromNib.m"; sourceTree = "<group>"; };
+		E5AD917D18AA187A00A2062A /* SEListObjectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEListObjectTableViewCell.h; sourceTree = "<group>"; };
+		E5AD917E18AA187A00A2062A /* SEListObjectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEListObjectTableViewCell.m; sourceTree = "<group>"; };
+		E5AD918018AA188F00A2062A /* SEListObjectTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEListObjectTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +127,11 @@
 			children = (
 				E5AD914418AA12F300A2062A /* SEAppDelegate.h */,
 				E5AD914518AA12F300A2062A /* SEAppDelegate.m */,
-				E5AD914718AA12F300A2062A /* Main_iPhone.storyboard */,
-				E5AD914A18AA12F300A2062A /* Main_iPad.storyboard */,
-				E5AD914D18AA12F300A2062A /* SEViewController.h */,
-				E5AD914E18AA12F300A2062A /* SEViewController.m */,
+				E5AD917918AA183C00A2062A /* UIView+LoadFromNib.h */,
+				E5AD917A18AA183C00A2062A /* UIView+LoadFromNib.m */,
+				E5AD917C18AA184C00A2062A /* Views */,
+				E5AD917518AA14FC00A2062A /* ViewControllers */,
+				E5AD917418AA14F200A2062A /* Models */,
 				E5AD915018AA12F300A2062A /* Images.xcassets */,
 				E5AD913C18AA12F300A2062A /* Supporting Files */,
 			);
@@ -129,6 +141,7 @@
 		E5AD913C18AA12F300A2062A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E5AD917218AA14E800A2062A /* AddressBook.plist */,
 				E5AD913D18AA12F300A2062A /* SymbioExam-Info.plist */,
 				E5AD913E18AA12F300A2062A /* InfoPlist.strings */,
 				E5AD914118AA12F300A2062A /* main.m */,
@@ -153,6 +166,35 @@
 				E5AD916018AA12F300A2062A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5AD917418AA14F200A2062A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5AD917618AA152300A2062A /* SEListObject.h */,
+				E5AD917718AA152300A2062A /* SEListObject.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E5AD917518AA14FC00A2062A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5AD916D18AA14A400A2062A /* SETestTableViewController.h */,
+				E5AD916E18AA14A400A2062A /* SETestTableViewController.m */,
+				E5AD916F18AA14A400A2062A /* SETestTableViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E5AD917C18AA184C00A2062A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5AD917D18AA187A00A2062A /* SEListObjectTableViewCell.h */,
+				E5AD917E18AA187A00A2062A /* SEListObjectTableViewCell.m */,
+				E5AD918018AA188F00A2062A /* SEListObjectTableViewCell.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5AD914C18AA12F300A2062A /* Main_iPad.storyboard in Resources */,
+				E5AD917318AA14E800A2062A /* AddressBook.plist in Resources */,
+				E5AD918118AA188F00A2062A /* SEListObjectTableViewCell.xib in Resources */,
+				E5AD917118AA14A400A2062A /* SETestTableViewController.xib in Resources */,
 				E5AD915118AA12F300A2062A /* Images.xcassets in Resources */,
-				E5AD914918AA12F300A2062A /* Main_iPhone.storyboard in Resources */,
 				E5AD914018AA12F300A2062A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,8 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5AD917818AA152300A2062A /* SEListObject.m in Sources */,
+				E5AD917B18AA183C00A2062A /* UIView+LoadFromNib.m in Sources */,
 				E5AD914618AA12F300A2062A /* SEAppDelegate.m in Sources */,
-				E5AD914F18AA12F300A2062A /* SEViewController.m in Sources */,
+				E5AD917018AA14A400A2062A /* SETestTableViewController.m in Sources */,
+				E5AD917F18AA187A00A2062A /* SEListObjectTableViewCell.m in Sources */,
 				E5AD914218AA12F300A2062A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,22 +331,6 @@
 				E5AD913F18AA12F300A2062A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E5AD914718AA12F300A2062A /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5AD914818AA12F300A2062A /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		E5AD914A18AA12F300A2062A /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5AD914B18AA12F300A2062A /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		E5AD916018AA12F300A2062A /* InfoPlist.strings */ = {
